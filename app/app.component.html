@@ -1,0 +1,53 @@
+<mat-toolbar color="primary">
+	Angular Material - floatLabel and appearance
+</mat-toolbar>
+
+<!--
+Copyright Google LLC All Rights Reserved.
+
+Use of this source code is governed by an MIT-style license that can be
+found in the LICENSE file at https://angular.io/license
+-->
+<br><br>
+  <mat-form-field floatLabel="never">
+    <mat-label>floatLabel - Never</mat-label>
+    <input matInput required>
+  </mat-form-field><br><br>
+
+  <mat-form-field floatLabel="never" appearance="outline">
+    <mat-label>floatLabel - Never</mat-label>
+    <input matInput required>
+  </mat-form-field>
+
+  <br><br>
+  My understanding was that the label will never display once content is placed in the field.<br>
+  As you can see in the outline field the label persists.<br>
+
+I'm new to all of this Angular and Material stuff so here is all my setup info from 'ng --version'<br>
+<pre>
+Angular CLI: 7.3.9
+Node: 10.15.3
+OS: win32 x64
+Angular: 7.2.15
+... animations, common, compiler, compiler-cli, core, forms
+... language-service, platform-browser, platform-browser-dynamic
+... router
+
+Package                           Version
+-----------------------------------------------------------
+@angular-devkit/architect         0.13.9
+@angular-devkit/build-angular     0.13.9
+@angular-devkit/build-optimizer   0.13.9
+@angular-devkit/build-webpack     0.13.9
+@angular-devkit/core              7.3.9
+@angular-devkit/schematics        7.3.9
+@angular/cdk                      7.3.7
+@angular/cli                      7.3.9
+@angular/material                 7.3.7
+@ngtools/webpack                  7.3.9
+@schematics/angular               7.3.9
+@schematics/update                0.13.9
+rxjs                              6.3.3
+typescript                        3.2.4
+webpack                           4.29.0
+</pre>
